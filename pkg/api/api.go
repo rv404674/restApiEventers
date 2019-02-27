@@ -10,7 +10,7 @@
 //     Schemes: http
 //     Version: 2.0.0
 //     License: MIT http://opensource.org/licenses/MIT
-//     Contact: Emir Ribic <ribice@gmail.com> https://ribice.ba
+//     Contact: Emir Ribic <rahulVerma@gmail.com> https://ribice.ba
 //     Host: localhost:8080
 //
 //     Consumes:
@@ -34,24 +34,24 @@ package api
 import (
 	"crypto/sha1"
 
-	"github.com/ribice/gorsk/pkg/utl/zlog"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/zlog"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	al "github.com/ribice/gorsk/pkg/api/auth/logging"
-	at "github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/api/password"
-	pl "github.com/ribice/gorsk/pkg/api/password/logging"
-	pt "github.com/ribice/gorsk/pkg/api/password/transport"
-	"github.com/ribice/gorsk/pkg/api/user"
-	ul "github.com/ribice/gorsk/pkg/api/user/logging"
-	ut "github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/rahulVerma/restApiEventers/pkg/api/auth"
+	al "github.com/rahulVerma/restApiEventers/pkg/api/auth/logging"
+	at "github.com/rahulVerma/restApiEventers/pkg/api/auth/transport"
+	"github.com/rahulVerma/restApiEventers/pkg/api/password"
+	pl "github.com/rahulVerma/restApiEventers/pkg/api/password/logging"
+	pt "github.com/rahulVerma/restApiEventers/pkg/api/password/transport"
+	"github.com/rahulVerma/restApiEventers/pkg/api/user"
+	ul "github.com/rahulVerma/restApiEventers/pkg/api/user/logging"
+	ut "github.com/rahulVerma/restApiEventers/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/postgres"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
-	"github.com/ribice/gorsk/pkg/utl/secure"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/config"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/middleware/jwt"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/postgres"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/rbac"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/secure"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/server"
 )
 
 // Start starts the API service

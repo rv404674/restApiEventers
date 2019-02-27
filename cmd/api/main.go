@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/ribice/gorsk/pkg/api"
+	"github.com/rahulVerma/restApiEventers/pkg/api"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/config"
 )
 
 func main() {

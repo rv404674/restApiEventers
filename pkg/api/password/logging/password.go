@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/pkg/api/password"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/rahulVerma/restApiEventers/pkg/api/password"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/model"
 )
 
 // New creates new password logging service

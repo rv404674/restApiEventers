@@ -2,7 +2,7 @@ package query
 
 import (
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/model"
 )
 
 // List prepares data for list queries

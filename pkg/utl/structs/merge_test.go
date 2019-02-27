@@ -3,7 +3,7 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/structs"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/structs"
 	"github.com/stretchr/testify/assert"
 )
 

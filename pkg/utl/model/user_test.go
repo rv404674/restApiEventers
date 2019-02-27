@@ -3,7 +3,7 @@ package gorsk_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/model"
 )
 
 func TestChangePassword(t *testing.T) {

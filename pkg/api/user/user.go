@@ -3,9 +3,9 @@ package user
 
 import (
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/pkg/utl/model"
-	"github.com/ribice/gorsk/pkg/utl/query"
-	"github.com/ribice/gorsk/pkg/utl/structs"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/model"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/query"
+	"github.com/rahulVerma/restApiEventers/pkg/utl/structs"
 )
 
 // Create creates a new user account
